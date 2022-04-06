@@ -1,0 +1,101 @@
+#logo {
+    float: left;
+    width:  250px;
+    height: 150px;
+  }
+  .header{
+    overflow: hidden;
+  }
+h1{
+    text-align: center;
+    color: red;
+}
+  ul {
+    float:right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+    float: left;
+  }
+  li a {
+    float: right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    font-family:Arial Black;
+  }
+  /* Change color on hover */
+  li a:hover {
+    background-color:black;
+    color: red;
+  }
+  .nav{
+    float:right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  .container1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .grid-container  div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+ padding: 50px;
+    font-size: 30px;
+  }
+  .grid-container div:hover{
+    background-color:black;
+    color: red;
+  }
+  div img {
+  object-fit:fill;
+  width:310px;
+  height: 250px;
+  }
+  .social-links a{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #ffffff;
+    color: #ff0000;
+    border-radius: 50%;
+    margin: 0 2px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    transition: all .5s ease;
+} 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+ height:12%;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+

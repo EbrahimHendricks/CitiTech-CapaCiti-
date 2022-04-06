@@ -1,0 +1,166 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    flex-direction:column;
+  }
+  body::after {
+    content: "";
+    background-image: url("images/uni7.jpg");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+.bg {
+    /* The image used */
+    /* Full height */
+    height: 90%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.header{
+  overflow: hidden;
+} 
+  #logo {
+    float: left;
+    width:  250px;
+    height: 150px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  }
+  #logo:hover {
+    opacity: 1.0;
+  }
+  ul {
+      float:right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: medium;
+    font-family:Arial Black;
+  }
+  li a:hover {
+    background-color:red;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   height:12%;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+ }
+ .flex-container{
+  height: 80%;
+  width:100%;
+  display: flex;
+    }
+    .flex-item-left {
+        float: left;
+        padding: auto;
+      width:25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .flex-item-right {
+      display:flex;
+      text-align: center;
+      justify-content: flex-start;
+       width :100%;
+      }
+      .flex-container:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .bti{      
+      position: fixed;
+      justify-content: center;
+      align-items: center;
+      font-size: medium;
+      font-family:Arial white;
+      }
+      #search{
+        position:absolute;
+        left: 135px;
+        bottom :46%;
+        position: fixed;
+     width: 87%;
+      }
+      .title1{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+      }
+      h1{
+        position:absolute;
+        font-family:Arial Black;
+        bottom :62%;
+        left: 120px;
+      }
+    button{
+      border:none;
+      background-color:black;
+      text-align: center;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      opacity: 0.6;
+      width: 235px;
+      height:40px;
+    }
+    button:hover{
+        opacity: 1.0;
+        background-color: rgb(180, 14, 14);
+    }
+   input{
+    width: 235px;
+    height:35px;
+   }
+   #Province{
+    width: 235px;
+    height:40px;
+   }
+   .social-links a{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #ffffff;
+    color: #ff0000;
+    border-radius: 50%;
+    margin: 0 2px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    transition: all .5s ease;
+} 
+   .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
